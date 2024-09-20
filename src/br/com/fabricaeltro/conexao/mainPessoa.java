@@ -12,7 +12,7 @@ public class mainPessoa {
 		System.out.println("Oi");
 		Connection conexao = null;
 		// Na linha abaixo, estou armazenando o caminho do BD na variável url
-		String url = "jdbc:mysql://localhost:3307/aula";
+		String url = "jdbc:mysql://localhost:3307/DBDS";
 		conexao = DriverManager.getConnection(url, "root", "*123456HAS*");
 		System.out.println("Abriu a conexão.");
 		conexao.close();
